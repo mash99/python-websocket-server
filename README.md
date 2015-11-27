@@ -3,7 +3,7 @@ Websocket Server
 
 A minimal Websockets Server in Python with no external dependencies.
 
-  * Works with Python 2.5+, Python3, and Jython 2.5.3+
+  * Tested with Python 2.5+, and Jython 2.5.3+, but should work on Python2 and Python3 
   * Clean simple API
   * Multiple clients
   * No dependencies
@@ -14,7 +14,7 @@ websocket server for prototyping, testing or for making a GUI for your applicati
 
 TODO
 =======================
-1. Reimplement payload_len checking using structs to account for size of message
+1. Reimplement payload_len checking using structs to account for size of message, and at the moment only works for 1 byte per char
 
 
 Usage
